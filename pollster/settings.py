@@ -32,13 +32,14 @@ ALLOWED_HOSTS = ['mypolling.herokuapp.com','127.0.0.1']
 
 INSTALLED_APPS = [
     'whitenoise.runserver_nostatic',
+    'django.contrib.staticfiles',
     'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
+    
 ]
 
 MIDDLEWARE = [
