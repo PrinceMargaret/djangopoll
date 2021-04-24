@@ -70,6 +70,7 @@ TEMPLATES = [
     },
 ]
 
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 WSGI_APPLICATION = 'pollster.wsgi.application'
 
